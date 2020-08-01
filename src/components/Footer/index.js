@@ -26,7 +26,7 @@ const Footer = () => {
           </Grid>
           <Grid item container xs={12} sm={4}>
             <Link to="/index">
-              <Brand src={logoImg} alt="Techflix" />
+              <Brand src={logoImg} alt="Techflix" justify="center" />
             </Link>
           </Grid>
         </Grid>

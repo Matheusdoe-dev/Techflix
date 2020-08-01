@@ -28,5 +28,13 @@ export const FooterContainer = styled.footer`
       opacity: 85%;
       margin-top: var(--gap-md);
     }
+
+    @media (max-width: 600px) {
+      a {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
   }
 `;

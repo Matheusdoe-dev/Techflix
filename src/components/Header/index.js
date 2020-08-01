@@ -9,7 +9,7 @@ import { Brand } from "../../styles/components/brand";
 // imgs
 import logoImg from "../../assets/icons/techflix.svg";
 
-const Header = () => {
+const Header = ({ background }) => {
   const history = useHistory();
 
   const handleEntrar = (event) => {
@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <HeaderContainer>
+    <HeaderContainer background={background}>
       <Container>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={4}>
