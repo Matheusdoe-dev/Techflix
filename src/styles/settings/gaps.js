@@ -8,12 +8,13 @@ const GlobalStyle = createGlobalStyle`
         --gap-lg: 4.1875rem;
         --gap-xl: 6.8125rem;
     }
-    @media (max-width: 576px) {
+    
+    @media (max-width: 600px) {
         :root {
         --gap-sm: 1rem;
         --gap-md: 1.5625rem;
         --gap-lg: 2.5625rem;
-        --gap-xl: 4.1875r em;
+        --gap-xl: 4.1875rem;
         }
     }
 `;

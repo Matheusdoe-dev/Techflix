@@ -54,6 +54,12 @@ const Elements = createGlobalStyle`
     img {
         border-radius: 9px;
     }
+
+    img, iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 `;
 
 export default Elements;
